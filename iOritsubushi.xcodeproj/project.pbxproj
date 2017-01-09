@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031E8484688E8BCF11F02148 /* Pods_iOritsubushi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71561E944447FF1498FA70EC /* Pods_iOritsubushi.framework */; };
+		06C2CDAC1E23749300E78DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2CDAB1E23749300E78DA1 /* AppDelegate.swift */; };
+		06C2CDAE1E23749300E78DA1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2CDAD1E23749300E78DA1 /* FirstViewController.swift */; };
+		06C2CDB01E23749300E78DA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2CDAF1E23749300E78DA1 /* SecondViewController.swift */; };
+		06C2CDB31E23749300E78DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C2CDB11E23749300E78DA1 /* Main.storyboard */; };
+		06C2CDB51E23749300E78DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C2CDB41E23749300E78DA1 /* Assets.xcassets */; };
+		06C2CDB81E23749300E78DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C2CDB61E23749300E78DA1 /* LaunchScreen.storyboard */; };
+		06C2CDC31E23749300E78DA1 /* iOritsubushiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2CDC21E23749300E78DA1 /* iOritsubushiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06C2CDBF1E23749300E78DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06C2CDA01E23749300E78DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06C2CDA71E23749300E78DA1;
+			remoteInfo = iOritsubushi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C2CDA81E23749300E78DA1 /* iOritsubushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOritsubushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C2CDAB1E23749300E78DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06C2CDAD1E23749300E78DA1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		06C2CDAF1E23749300E78DA1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		06C2CDB21E23749300E78DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06C2CDB41E23749300E78DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06C2CDB71E23749300E78DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06C2CDB91E23749300E78DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C2CDBE1E23749300E78DA1 /* iOritsubushiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOritsubushiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C2CDC21E23749300E78DA1 /* iOritsubushiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOritsubushiTests.swift; sourceTree = "<group>"; };
+		06C2CDC41E23749300E78DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D57341CE66C9C0B5442F085 /* Pods-iOritsubushi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOritsubushi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOritsubushi/Pods-iOritsubushi.debug.xcconfig"; sourceTree = "<group>"; };
+		7035BBCE312ADBEC81034DEE /* Pods-iOritsubushi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOritsubushi.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOritsubushi/Pods-iOritsubushi.release.xcconfig"; sourceTree = "<group>"; };
+		71561E944447FF1498FA70EC /* Pods_iOritsubushi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOritsubushi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06C2CDA51E23749300E78DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031E8484688E8BCF11F02148 /* Pods_iOritsubushi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C2CDBB1E23749300E78DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C2CD9F1E23749300E78DA1 = {
+			isa = PBXGroup;
+			children = (
+				06C2CDAA1E23749300E78DA1 /* iOritsubushi */,
+				06C2CDC11E23749300E78DA1 /* iOritsubushiTests */,
+				06C2CDA91E23749300E78DA1 /* Products */,
+				4DCE4524A58834DAF03F1813 /* Pods */,
+				BEF55736DB39BD8B6E4B0F16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06C2CDA91E23749300E78DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06C2CDA81E23749300E78DA1 /* iOritsubushi.app */,
+				06C2CDBE1E23749300E78DA1 /* iOritsubushiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06C2CDAA1E23749300E78DA1 /* iOritsubushi */ = {
+			isa = PBXGroup;
+			children = (
+				06C2CDAB1E23749300E78DA1 /* AppDelegate.swift */,
+				06C2CDAD1E23749300E78DA1 /* FirstViewController.swift */,
+				06C2CDAF1E23749300E78DA1 /* SecondViewController.swift */,
+				06C2CDB11E23749300E78DA1 /* Main.storyboard */,
+				06C2CDB41E23749300E78DA1 /* Assets.xcassets */,
+				06C2CDB61E23749300E78DA1 /* LaunchScreen.storyboard */,
+				06C2CDB91E23749300E78DA1 /* Info.plist */,
+			);
+			path = iOritsubushi;
+			sourceTree = "<group>";
+		};
+		06C2CDC11E23749300E78DA1 /* iOritsubushiTests */ = {
+			isa = PBXGroup;
+			children = (
+				06C2CDC21E23749300E78DA1 /* iOritsubushiTests.swift */,
+				06C2CDC41E23749300E78DA1 /* Info.plist */,
+			);
+			path = iOritsubushiTests;
+			sourceTree = "<group>";
+		};
+		4DCE4524A58834DAF03F1813 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D57341CE66C9C0B5442F085 /* Pods-iOritsubushi.debug.xcconfig */,
+				7035BBCE312ADBEC81034DEE /* Pods-iOritsubushi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEF55736DB39BD8B6E4B0F16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71561E944447FF1498FA70EC /* Pods_iOritsubushi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06C2CDA71E23749300E78DA1 /* iOritsubushi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C2CDC71E23749300E78DA1 /* Build configuration list for PBXNativeTarget "iOritsubushi" */;
+			buildPhases = (
+				695F748AE007BFCA08733C05 /* [CP] Check Pods Manifest.lock */,
+				06C2CDA41E23749300E78DA1 /* Sources */,
+				06C2CDA51E23749300E78DA1 /* Frameworks */,
+				06C2CDA61E23749300E78DA1 /* Resources */,
+				D2F64AB512A411009516F258 /* [CP] Embed Pods Frameworks */,
+				172318822F26F54F5CFDD214 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOritsubushi;
+			productName = iOritsubushi;
+			productReference = 06C2CDA81E23749300E78DA1 /* iOritsubushi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06C2CDBD1E23749300E78DA1 /* iOritsubushiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C2CDCA1E23749300E78DA1 /* Build configuration list for PBXNativeTarget "iOritsubushiTests" */;
+			buildPhases = (
+				06C2CDBA1E23749300E78DA1 /* Sources */,
+				06C2CDBB1E23749300E78DA1 /* Frameworks */,
+				06C2CDBC1E23749300E78DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06C2CDC01E23749300E78DA1 /* PBXTargetDependency */,
+			);
+			name = iOritsubushiTests;
+			productName = iOritsubushiTests;
+			productReference = 06C2CDBE1E23749300E78DA1 /* iOritsubushiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06C2CDA01E23749300E78DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yonezawaizumi;
+				TargetAttributes = {
+					06C2CDA71E23749300E78DA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YQ9QLVPTA3;
+						ProvisioningStyle = Automatic;
+					};
+					06C2CDBD1E23749300E78DA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YQ9QLVPTA3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06C2CDA71E23749300E78DA1;
+					};
+				};
+			};
+			buildConfigurationList = 06C2CDA31E23749300E78DA1 /* Build configuration list for PBXProject "iOritsubushi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06C2CD9F1E23749300E78DA1;
+			productRefGroup = 06C2CDA91E23749300E78DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06C2CDA71E23749300E78DA1 /* iOritsubushi */,
+				06C2CDBD1E23749300E78DA1 /* iOritsubushiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06C2CDA61E23749300E78DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C2CDB81E23749300E78DA1 /* LaunchScreen.storyboard in Resources */,
+				06C2CDB51E23749300E78DA1 /* Assets.xcassets in Resources */,
+				06C2CDB31E23749300E78DA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C2CDBC1E23749300E78DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		172318822F26F54F5CFDD214 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOritsubushi/Pods-iOritsubushi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		695F748AE007BFCA08733C05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F64AB512A411009516F258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOritsubushi/Pods-iOritsubushi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06C2CDA41E23749300E78DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C2CDB01E23749300E78DA1 /* SecondViewController.swift in Sources */,
+				06C2CDAC1E23749300E78DA1 /* AppDelegate.swift in Sources */,
+				06C2CDAE1E23749300E78DA1 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C2CDBA1E23749300E78DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C2CDC31E23749300E78DA1 /* iOritsubushiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06C2CDC01E23749300E78DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06C2CDA71E23749300E78DA1 /* iOritsubushi */;
+			targetProxy = 06C2CDBF1E23749300E78DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06C2CDB11E23749300E78DA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06C2CDB21E23749300E78DA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06C2CDB61E23749300E78DA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06C2CDB71E23749300E78DA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06C2CDC51E23749300E78DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06C2CDC61E23749300E78DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06C2CDC81E23749300E78DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D57341CE66C9C0B5442F085 /* Pods-iOritsubushi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQ9QLVPTA3;
+				INFOPLIST_FILE = iOritsubushi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsf-lp.iOritsubushi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		06C2CDC91E23749300E78DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7035BBCE312ADBEC81034DEE /* Pods-iOritsubushi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQ9QLVPTA3;
+				INFOPLIST_FILE = iOritsubushi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsf-lp.iOritsubushi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		06C2CDCB1E23749300E78DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQ9QLVPTA3;
+				INFOPLIST_FILE = iOritsubushiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsf-lp.iOritsubushiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOritsubushi.app/iOritsubushi";
+			};
+			name = Debug;
+		};
+		06C2CDCC1E23749300E78DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQ9QLVPTA3;
+				INFOPLIST_FILE = iOritsubushiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsf-lp.iOritsubushiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOritsubushi.app/iOritsubushi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06C2CDA31E23749300E78DA1 /* Build configuration list for PBXProject "iOritsubushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C2CDC51E23749300E78DA1 /* Debug */,
+				06C2CDC61E23749300E78DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C2CDC71E23749300E78DA1 /* Build configuration list for PBXNativeTarget "iOritsubushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C2CDC81E23749300E78DA1 /* Debug */,
+				06C2CDC91E23749300E78DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C2CDCA1E23749300E78DA1 /* Build configuration list for PBXNativeTarget "iOritsubushiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C2CDCB1E23749300E78DA1 /* Debug */,
+				06C2CDCC1E23749300E78DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06C2CDA01E23749300E78DA1 /* Project object */;
+}
