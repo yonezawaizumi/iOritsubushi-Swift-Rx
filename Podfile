@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 use_frameworks!
 
@@ -8,9 +8,11 @@ target ‘iOritsubushi’ do
   # use_frameworks!
 
   # Pods for iOritsubushi
-  pod 'SQLite.swift', '~> 0.11.2'
-  #pod 'SBJson',       '~> 4.0'
-  #pod 'MJPopupViewController'
-  #pod 'ASIHTTPRequest'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxGRDB'
+  pod 'RxGRDB/SQLCipher'
+  pod 'RxGoogleMaps'
+  pod 'RxWebKit'
   #pod 'Firebase/Messaging'
 end

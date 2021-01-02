@@ -1,14 +1,73 @@
 PODS:
-  - SQLite.swift (0.11.2):
-    - SQLite.swift/standard (= 0.11.2)
-  - SQLite.swift/standard (0.11.2)
+  - GoogleMaps (3.10.0):
+    - GoogleMaps/Maps (= 3.10.0)
+  - GoogleMaps/Base (3.10.0)
+  - GoogleMaps/Maps (3.10.0):
+    - GoogleMaps/Base
+  - GRDB.swift (4.14.0):
+    - GRDB.swift/standard (= 4.14.0)
+  - GRDB.swift/SQLCipher (4.14.0):
+    - SQLCipher (>= 3.4.0)
+  - GRDB.swift/standard (4.14.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGoogleMaps (4.0.0):
+    - GoogleMaps (~> 3)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxGRDB (0.18.0):
+    - RxGRDB/default (= 0.18.0)
+    - RxSwift (~> 5.0)
+  - RxGRDB/default (0.18.0):
+    - GRDB.swift (~> 4.1)
+    - RxSwift (~> 5.0)
+  - RxGRDB/SQLCipher (0.18.0):
+    - GRDB.swift/SQLCipher (~> 4.1)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxWebKit (1.0.2):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - SQLCipher (4.4.2):
+    - SQLCipher/standard (= 4.4.2)
+  - SQLCipher/common (4.4.2)
+  - SQLCipher/standard (4.4.2):
+    - SQLCipher/common
 
 DEPENDENCIES:
-  - SQLite.swift (~> 0.11.2)
+  - RxCocoa
+  - RxGoogleMaps
+  - RxGRDB
+  - RxGRDB/SQLCipher
+  - RxSwift
+  - RxWebKit
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - GRDB.swift
+    - RxCocoa
+    - RxGoogleMaps
+    - RxGRDB
+    - RxRelay
+    - RxSwift
+    - RxWebKit
+    - SQLCipher
 
 SPEC CHECKSUMS:
-  SQLite.swift: 670c3e9e0a806bbfd56a3de5d530768dc0e6fe7c
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+  GRDB.swift: 8cc3ab7c8b8b4ac1761deb8dca4b51c1c9d429f8
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxGoogleMaps: 5d8a91a26dc9e3f703c5be09424e3ecf7f607328
+  RxGRDB: 41dfd8f987aad7a7bdd7c420319d3eb23ee383f3
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxWebKit: a3085e7cd8b57182b452692686675702474014dd
+  SQLCipher: 1ab0b9486a77d141e72e92ff30681926ed79c07a
 
-PODFILE CHECKSUM: 25eefe901c8a6a616b5a0745d74c900718df2e1c
+PODFILE CHECKSUM: 237aa5c89b02cadc9827aeab9681d68af3ec427d
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.10.0
