@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		06993CAC259FE0AC00637D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06993CAB259FE0AC00637D5A /* AppDelegate.swift */; };
 		06993CAE259FE0AC00637D5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06993CAD259FE0AC00637D5A /* SceneDelegate.swift */; };
-		06993CB0259FE0AC00637D5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06993CAF259FE0AC00637D5A /* ViewController.swift */; };
+		06993CB0259FE0AC00637D5A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06993CAF259FE0AC00637D5A /* TabBarController.swift */; };
 		06993CB3259FE0AC00637D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06993CB1259FE0AC00637D5A /* Main.storyboard */; };
 		06993CB5259FE0AE00637D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06993CB4259FE0AE00637D5A /* Assets.xcassets */; };
 		06993CB8259FE0AE00637D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06993CB6259FE0AE00637D5A /* LaunchScreen.storyboard */; };
 		06993CC3259FE0AF00637D5A /* iOritsubushiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06993CC2259FE0AF00637D5A /* iOritsubushiTests.swift */; };
 		06993CCE259FE0AF00637D5A /* iOritsubushiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06993CCD259FE0AF00637D5A /* iOritsubushiUITests.swift */; };
+		06993D1D25A1218A00637D5A /* Stations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06993D1C25A1218A00637D5A /* Stations.storyboard */; };
+		06993D2325A138EB00637D5A /* DatabaseInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06993D2225A138EB00637D5A /* DatabaseInitializer.swift */; };
+		06993D2825A2900500637D5A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06993D2725A2900500637D5A /* Constants.swift */; };
+		06993D2D25A298F000637D5A /* DatabaseVersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06993D2C25A298F000637D5A /* DatabaseVersionInfo.swift */; };
 		D46AF05A8C4E23D3AE415897 /* Pods_iOritsubushi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A6BB86AF0977F94C53EA4 /* Pods_iOritsubushi.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +43,7 @@
 		06993CA8259FE0AC00637D5A /* iOritsubushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOritsubushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06993CAB259FE0AC00637D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06993CAD259FE0AC00637D5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06993CAF259FE0AC00637D5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06993CAF259FE0AC00637D5A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		06993CB2259FE0AC00637D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06993CB4259FE0AE00637D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06993CB7259FE0AE00637D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +54,10 @@
 		06993CC9259FE0AF00637D5A /* iOritsubushiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOritsubushiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06993CCD259FE0AF00637D5A /* iOritsubushiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOritsubushiUITests.swift; sourceTree = "<group>"; };
 		06993CCF259FE0AF00637D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06993D1C25A1218A00637D5A /* Stations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stations.storyboard; sourceTree = "<group>"; };
+		06993D2225A138EB00637D5A /* DatabaseInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseInitializer.swift; sourceTree = "<group>"; };
+		06993D2725A2900500637D5A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		06993D2C25A298F000637D5A /* DatabaseVersionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseVersionInfo.swift; sourceTree = "<group>"; };
 		1D4507D4A942A83CA8CD43D2 /* Pods-iOritsubushi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOritsubushi.release.xcconfig"; path = "Target Support Files/Pods-iOritsubushi/Pods-iOritsubushi.release.xcconfig"; sourceTree = "<group>"; };
 		5A8A6BB86AF0977F94C53EA4 /* Pods_iOritsubushi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOritsubushi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0B883B2F1CA59A0D1F53EF /* Pods-iOritsubushi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOritsubushi.debug.xcconfig"; path = "Target Support Files/Pods-iOritsubushi/Pods-iOritsubushi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,13 +122,16 @@
 		06993CAA259FE0AC00637D5A /* iOritsubushi */ = {
 			isa = PBXGroup;
 			children = (
+				06993D2125A138C100637D5A /* Database */,
 				06993CAB259FE0AC00637D5A /* AppDelegate.swift */,
 				06993CAD259FE0AC00637D5A /* SceneDelegate.swift */,
-				06993CAF259FE0AC00637D5A /* ViewController.swift */,
+				06993CAF259FE0AC00637D5A /* TabBarController.swift */,
 				06993CB1259FE0AC00637D5A /* Main.storyboard */,
 				06993CB4259FE0AE00637D5A /* Assets.xcassets */,
 				06993CB6259FE0AE00637D5A /* LaunchScreen.storyboard */,
 				06993CB9259FE0AE00637D5A /* Info.plist */,
+				06993D1C25A1218A00637D5A /* Stations.storyboard */,
+				06993D2725A2900500637D5A /* Constants.swift */,
 			);
 			path = iOritsubushi;
 			sourceTree = "<group>";
@@ -141,6 +152,15 @@
 				06993CCF259FE0AF00637D5A /* Info.plist */,
 			);
 			path = iOritsubushiUITests;
+			sourceTree = "<group>";
+		};
+		06993D2125A138C100637D5A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				06993D2225A138EB00637D5A /* DatabaseInitializer.swift */,
+				06993D2C25A298F000637D5A /* DatabaseVersionInfo.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		928CF9460A6F69B0B5E3BDDB /* Pods */ = {
@@ -261,6 +281,7 @@
 				06993CB8259FE0AE00637D5A /* LaunchScreen.storyboard in Resources */,
 				06993CB5259FE0AE00637D5A /* Assets.xcassets in Resources */,
 				06993CB3259FE0AC00637D5A /* Main.storyboard in Resources */,
+				06993D1D25A1218A00637D5A /* Stations.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06993CB0259FE0AC00637D5A /* ViewController.swift in Sources */,
+				06993D2825A2900500637D5A /* Constants.swift in Sources */,
+				06993D2D25A298F000637D5A /* DatabaseVersionInfo.swift in Sources */,
+				06993CB0259FE0AC00637D5A /* TabBarController.swift in Sources */,
+				06993D2325A138EB00637D5A /* DatabaseInitializer.swift in Sources */,
 				06993CAC259FE0AC00637D5A /* AppDelegate.swift in Sources */,
 				06993CAE259FE0AC00637D5A /* SceneDelegate.swift in Sources */,
 			);
