@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import RxSwift
+import RxGRDB
 
 struct DatabaseInitializer {
     
@@ -17,19 +19,16 @@ struct DatabaseInitializer {
         return FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: Constants.dataGroupName)!.appendingPathComponent(databaseFileName)
     }
 
-    func prepareDatabase(name: String, databasePath: String, userVersion: Int) -> {
-        return create { observer -> Disposable in {
-            Observable<Bool> {
+    func prepareDatabase(name: String, databasePath: String, userVersion: Int) -> Single<Bool> {
+        return Single<Bool>.create { observer in
             let manager = FileManager.default
             if manager.fileExists(atPath: databasePath) {
                 if userVersion == 0 {
-                    observer.onNext(false).onComplete()
-                    return NopDisposable.instance
+                    observer(.success(true))
+                    return Disposables.create()
                 }
                 let queue = DatabaseQueue(path: databasePath)
-                
             }
-            
         }
     }
 }
